@@ -1,0 +1,6 @@
+i.rows: 47
+ii.columns: 5
+Ngram-fingerprint 9702
+iv.GREL_brandname: if(toString(value)=="","Unbranded",value)
+v.GREL_brandname: if(value.length()>2,1,0)
+vi.GREL_brandname: if(or(contains(toLowercase(value),"discount"),contains(toLowercase(value),"offer"),contains(toLowercase(value),"sale")),1,0)
